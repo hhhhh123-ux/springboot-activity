@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1382fe13-658f-4d06-9983-35591434938d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="1" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\java\maven\repository" />
+        <option name="mavenHome" value="E:/java/maven/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="E:\java\maven\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1vtB4WqNSRmAaKf18Rimr59dyYx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.springboot_activiti" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springboot_activiti.common.utils.spring" />
+      <recent name="com.example.springboot_activiti.common.utils" />
+      <recent name="com.example.springboot_activiti.framework.web.expection" />
+      <recent name="com.example.springboot_activiti.common.exception.user" />
+      <recent name="com.example.springboot_activiti.common.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework" />
+      <recent name="D:\xue\springboot_activiti\src\main\resources" />
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web\page" />
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web" />
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\project\system" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringbootActivitiApplication">
+    <configuration name="ActivitiDemo.ProcessDefinitionResource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="ProcessDefinitionResource" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemo.ProcessHistory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="ProcessHistory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemo.QueryProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="QueryProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemo.QueryStartProcessTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ActivitiDemo" />
+      <option name="METHOD_NAME" value="QueryStartProcessTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PassWordTest.password" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.PassWordTest" />
+      <option name="METHOD_NAME" value="password" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootActivitiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_activiti" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot_activiti.SpringbootActivitiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PassWordTest.password" />
+        <item itemvalue="JUnit.ActivitiDemo.ProcessHistory" />
+        <item itemvalue="JUnit.ActivitiDemo.ProcessDefinitionResource" />
+        <item itemvalue="JUnit.ActivitiDemo.QueryProcess" />
+        <item itemvalue="JUnit.ActivitiDemo.QueryStartProcessTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1382fe13-658f-4d06-9983-35591434938d" name="Default Changelist" comment="" />
+      <created>1627371313630</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627371313630</updated>
+      <workItem from="1627371360270" duration="7097000" />
+      <workItem from="1627437480601" duration="1890000" />
+      <workItem from="1627439743891" duration="5531000" />
+      <workItem from="1627446696976" duration="12338000" />
+      <workItem from="1627523375048" duration="21288000" />
+      <workItem from="1627617197652" duration="22438000" />
+      <workItem from="1627867568714" duration="5591000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1627639648032</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627639648032</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交">
+      <created>1627639739936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627639739936</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;提交&quot;&#10;&#10;This reverts commit 21a00592">
+      <created>1627639834170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627639834170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="提交">
+      <created>1627870072378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627870072378</updated>
+    </task>
+    <task id="LOCAL-00005" summary="提交">
+      <created>1627871655658</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627871655658</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Revert &quot;提交&quot;&#10;&#10;This reverts commit 21a00592" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627372519361">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1627372519361" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1627637164710">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1627637164710" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1627613063837">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1627613063837" />
+    <state x="236" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1627525718606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="236" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1627525718606" />
+    <state x="458" y="230" width="453" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627631826743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="458" y="230" width="453" height="274" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1627631826743" />
+    <state x="189" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627543892705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="189" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1627543892705" />
+    <state x="103" y="0" key="CommitChangelistDialog2" timestamp="1627871654083">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="103" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1627871654083" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1627640049890">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1627640049890" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1627873198831">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1627873198831" />
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom" timestamp="1627870680907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627870680907" />
+    <state width="1323" height="301" key="GridCell.Tab.0.center" timestamp="1627870680907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627870680907" />
+    <state width="1323" height="301" key="GridCell.Tab.0.left" timestamp="1627870680907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627870680907" />
+    <state width="1323" height="301" key="GridCell.Tab.0.right" timestamp="1627870680907">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627870680907" />
+    <state width="1323" height="301" key="GridCell.Tab.1.bottom" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.1.center" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.1.left" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.1.right" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.2.bottom" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.2.center" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.2.left" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state width="1323" height="301" key="GridCell.Tab.2.right" timestamp="1627870680908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="301" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1627870680908" />
+    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1627639137127">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1627639137127" />
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1627548463191">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1627548463191" />
+    <state x="54" y="9" key="SettingsEditor" timestamp="1627639593211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="54" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627639593211" />
+    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2" timestamp="1627872021308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1627872021308" />
+    <state x="418" y="97" key="VcsDiffUtil.ChangesDialog" timestamp="1627639909940">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="418" y="97" key="VcsDiffUtil.ChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1627639909940" />
+    <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1627869616873">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1627869616873" />
+    <state x="467" y="0" width="915" height="615" key="dock-window-1" timestamp="1627446646815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="0" width="915" height="615" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1627446646815" />
+    <state x="200" y="14" width="915" height="615" key="dock-window-2" timestamp="1627446646815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="200" y="14" width="915" height="615" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1627446646815" />
+    <state x="385" y="98" width="596" height="532" key="find.popup" timestamp="1627868135332">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="385" y="98" width="596" height="532" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1627868135332" />
+    <state x="502" y="224" key="git4idea.rebase.GitRebaseDialog" timestamp="1627639801767">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="502" y="224" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1627639801767" />
+    <state x="47" y="12" key="new project wizard" timestamp="1627378417092">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="47" y="12" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1627378417092" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1627545925894">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1627545925894" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1627524852019">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1627524852019" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/springboot_activiti$ActivitiDemo_Test.ic" NAME="ActivitiDemo.Test Coverage Results" MODIFIED="1627446873696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.springboot_activiti.*</FILTER>
+    </SUITE>
+  </component>
+</project>
