@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot_activiti.project.system.mapper.SLogMapper">
+  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.system.domain.po.SLog">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="descr" jdbcType="VARCHAR" property="descr" />
+    <result column="operModal" jdbcType="VARCHAR" property="opermodal" />
+    <result column="host" jdbcType="VARCHAR" property="host" />
+    <result column="ipAddress" jdbcType="VARCHAR" property="ipaddress" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="method" jdbcType="VARCHAR" property="method" />
+    <result column="params" jdbcType="VARCHAR" property="params" />
+    <result column="errorMsg" jdbcType="VARCHAR" property="errormsg" />
+    <result column="operUser" jdbcType="VARCHAR" property="operuser" />
+    <result column="time" jdbcType="TIMESTAMP" property="time" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="deptId" jdbcType="VARCHAR" property="deptid" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="browser" jdbcType="VARCHAR" property="browser" />
+    <result column="sys" jdbcType="VARCHAR" property="sys" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, descr, operModal, `host`, ipAddress, url, `method`, params, errorMsg, operUser, 
+    `time`, `type`, deptId, `status`, browser, sys
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from s_log
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from s_log
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.system.domain.po.SLog" useGeneratedKeys="true">
+    insert into s_log (descr, operModal, `host`, 
+      ipAddress, url, `method`, 
+      params, errorMsg, operUser, 
+      `time`, `type`, deptId, 
+      `status`, browser, sys
+      )
+    values (#{descr,jdbcType=VARCHAR}, #{opermodal,jdbcType=VARCHAR}, #{host,jdbcType=VARCHAR}, 
+      #{ipaddress,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, #{method,jdbcType=VARCHAR}, 
+      #{params,jdbcType=VARCHAR}, #{errormsg,jdbcType=VARCHAR}, #{operuser,jdbcType=VARCHAR}, 
+      #{time,jdbcType=TIMESTAMP}, #{type,jdbcType=VARCHAR}, #{deptid,jdbcType=VARCHAR}, 
+      #{status,jdbcType=INTEGER}, #{browser,jdbcType=VARCHAR}, #{sys,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.system.domain.po.SLog" useGeneratedKeys="true">
+    insert into s_log
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="descr != null">
+        descr,
+      </if>
+      <if test="opermodal != null">
+        operModal,
+      </if>
+      <if test="host != null">
+        `host`,
+      </if>
+      <if test="ipaddress != null">
+        ipAddress,
+      </if>
+      <if test="url != null">
+        url,
+      </if>
+      <if test="method != null">
+        `method`,
+      </if>
+      <if test="params != null">
+        params,
+      </if>
+      <if test="errormsg != null">
+        errorMsg,
+      </if>
+      <if test="operuser != null">
+        operUser,
+      </if>
+      <if test="time != null">
+        `time`,
+      </if>
+      <if test="type != null">
+        `type`,
+      </if>
+      <if test="deptid != null">
+        deptId,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="browser != null">
+        browser,
+      </if>
+      <if test="sys != null">
+        sys,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="descr != null">
+        #{descr,jdbcType=VARCHAR},
+      </if>
+      <if test="opermodal != null">
+        #{opermodal,jdbcType=VARCHAR},
+      </if>
+      <if test="host != null">
+        #{host,jdbcType=VARCHAR},
+      </if>
+      <if test="ipaddress != null">
+        #{ipaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="method != null">
+        #{method,jdbcType=VARCHAR},
+      </if>
+      <if test="params != null">
+        #{params,jdbcType=VARCHAR},
+      </if>
+      <if test="errormsg != null">
+        #{errormsg,jdbcType=VARCHAR},
+      </if>
+      <if test="operuser != null">
+        #{operuser,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null">
+        #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="deptid != null">
+        #{deptid,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="browser != null">
+        #{browser,jdbcType=VARCHAR},
+      </if>
+      <if test="sys != null">
+        #{sys,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.system.domain.po.SLog">
+    update s_log
+    <set>
+      <if test="descr != null">
+        descr = #{descr,jdbcType=VARCHAR},
+      </if>
+      <if test="opermodal != null">
+        operModal = #{opermodal,jdbcType=VARCHAR},
+      </if>
+      <if test="host != null">
+        `host` = #{host,jdbcType=VARCHAR},
+      </if>
+      <if test="ipaddress != null">
+        ipAddress = #{ipaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="url != null">
+        url = #{url,jdbcType=VARCHAR},
+      </if>
+      <if test="method != null">
+        `method` = #{method,jdbcType=VARCHAR},
+      </if>
+      <if test="params != null">
+        params = #{params,jdbcType=VARCHAR},
+      </if>
+      <if test="errormsg != null">
+        errorMsg = #{errormsg,jdbcType=VARCHAR},
+      </if>
+      <if test="operuser != null">
+        operUser = #{operuser,jdbcType=VARCHAR},
+      </if>
+      <if test="time != null">
+        `time` = #{time,jdbcType=TIMESTAMP},
+      </if>
+      <if test="type != null">
+        `type` = #{type,jdbcType=VARCHAR},
+      </if>
+      <if test="deptid != null">
+        deptId = #{deptid,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="browser != null">
+        browser = #{browser,jdbcType=VARCHAR},
+      </if>
+      <if test="sys != null">
+        sys = #{sys,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.system.domain.po.SLog">
+    update s_log
+    set descr = #{descr,jdbcType=VARCHAR},
+      operModal = #{opermodal,jdbcType=VARCHAR},
+      `host` = #{host,jdbcType=VARCHAR},
+      ipAddress = #{ipaddress,jdbcType=VARCHAR},
+      url = #{url,jdbcType=VARCHAR},
+      `method` = #{method,jdbcType=VARCHAR},
+      params = #{params,jdbcType=VARCHAR},
+      errorMsg = #{errormsg,jdbcType=VARCHAR},
+      operUser = #{operuser,jdbcType=VARCHAR},
+      `time` = #{time,jdbcType=TIMESTAMP},
+      `type` = #{type,jdbcType=VARCHAR},
+      deptId = #{deptid,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=INTEGER},
+      browser = #{browser,jdbcType=VARCHAR},
+      sys = #{sys,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot_activiti.project.system.mapper.SMenuMapper">
+  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.system.domain.po.SMenu">
+    <id column="menu_Id" jdbcType="INTEGER" property="menuId" />
+    <result column="menu_Name" jdbcType="VARCHAR" property="menuName" />
+    <result column="menu_Url" jdbcType="VARCHAR" property="menuUrl" />
+    <result column="parent_Id" jdbcType="INTEGER" property="parentId" />
+    <result column="order_Num" jdbcType="INTEGER" property="orderNum" />
+    <result column="menu_Type" jdbcType="VARCHAR" property="menuType" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="createBy" jdbcType="VARCHAR" property="createby" />
+    <result column="updateBy" jdbcType="VARCHAR" property="updateby" />
+    <result column="createTime" jdbcType="DATE" property="createtime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    menu_Id, menu_Name, menu_Url, parent_Id, order_Num, menu_Type, `status`, createBy, 
+    updateBy, createTime
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from s_menu
+    where menu_Id = #{menuId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from s_menu
+    where menu_Id = #{menuId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="menu_Id" keyProperty="menuId" parameterType="com.example.springboot_activiti.project.system.domain.po.SMenu" useGeneratedKeys="true">
+    insert into s_menu (menu_Name, menu_Url, parent_Id, 
+      order_Num, menu_Type, `status`, 
+      createBy, updateBy, createTime
+      )
+    values (#{menuName,jdbcType=VARCHAR}, #{menuUrl,jdbcType=VARCHAR}, #{parentId,jdbcType=INTEGER}, 
+      #{orderNum,jdbcType=INTEGER}, #{menuType,jdbcType=VARCHAR}, #{status,jdbcType=VARCHAR}, 
+      #{createby,jdbcType=VARCHAR}, #{updateby,jdbcType=VARCHAR}, #{createtime,jdbcType=DATE}
+      )
+  </insert>
+  <insert id="insertSelective" keyColumn="menu_Id" keyProperty="menuId" parameterType="com.example.springboot_activiti.project.system.domain.po.SMenu" useGeneratedKeys="true">
+    insert into s_menu
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="menuName != null">
+        menu_Name,
+      </if>
+      <if test="menuUrl != null">
+        menu_Url,
+      </if>
+      <if test="parentId != null">
+        parent_Id,
+      </if>
+      <if test="orderNum != null">
+        order_Num,
+      </if>
+      <if test="menuType != null">
+        menu_Type,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="createby != null">
+        createBy,
+      </if>
+      <if test="updateby != null">
+        updateBy,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="menuName != null">
+        #{menuName,jdbcType=VARCHAR},
+      </if>
+      <if test="menuUrl != null">
+        #{menuUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        #{parentId,jdbcType=INTEGER},
+      </if>
+      <if test="orderNum != null">
+        #{orderNum,jdbcType=INTEGER},
+      </if>
+      <if test="menuType != null">
+        #{menuType,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="createby != null">
+        #{createby,jdbcType=VARCHAR},
+      </if>
+      <if test="updateby != null">
+        #{updateby,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.system.domain.po.SMenu">
+    update s_menu
+    <set>
+      <if test="menuName != null">
+        menu_Name = #{menuName,jdbcType=VARCHAR},
+      </if>
+      <if test="menuUrl != null">
+        menu_Url = #{menuUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        parent_Id = #{parentId,jdbcType=INTEGER},
+      </if>
+      <if test="orderNum != null">
+        order_Num = #{orderNum,jdbcType=INTEGER},
+      </if>
+      <if test="menuType != null">
+        menu_Type = #{menuType,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="createby != null">
+        createBy = #{createby,jdbcType=VARCHAR},
+      </if>
+      <if test="updateby != null">
+        updateBy = #{updateby,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+    </set>
+    where menu_Id = #{menuId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.system.domain.po.SMenu">
+    update s_menu
+    set menu_Name = #{menuName,jdbcType=VARCHAR},
+      menu_Url = #{menuUrl,jdbcType=VARCHAR},
+      parent_Id = #{parentId,jdbcType=INTEGER},
+      order_Num = #{orderNum,jdbcType=INTEGER},
+      menu_Type = #{menuType,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=VARCHAR},
+      createBy = #{createby,jdbcType=VARCHAR},
+      updateBy = #{updateby,jdbcType=VARCHAR},
+      createTime = #{createtime,jdbcType=DATE}
+    where menu_Id = #{menuId,jdbcType=INTEGER}
+  </update>
+  <select id="selectList" parameterType="com.example.springboot_activiti.project.system.domain.po.SMenu" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from s_menu
+    where
+        1=1
+    <if test="menuId != null">
+        and  menu_Id = #{menuId,jdbcType=INTEGER}
+    </if>
+    <if test="menuType != null">
+      and  menu_Type = #{menuType,jdbcType=INTEGER}
+    </if>
+  </select>
+</mapper>

@@ -19,6 +19,7 @@ public class CustomizeAuthenticationEntryPoint implements AuthenticationEntryPoi
 
     @Resource
     private ObjectMapper objectMapper;
+
     @Override
     public void commence(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, AuthenticationException e) throws IOException, ServletException {
         httpServletResponse.setStatus(HttpStatus.INTERNAL_SERVER_ERROR.value());

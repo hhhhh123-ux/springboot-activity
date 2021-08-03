@@ -4,6 +4,7 @@ import com.example.springboot_activiti.common.utils.SecurityUtils;
 import com.example.springboot_activiti.common.utils.StringUtils;
 import com.example.springboot_activiti.framework.security.LoginUser;
 import com.example.springboot_activiti.framework.security.service.TokenService;
+import com.example.springboot_activiti.project.system.service.impl.SystemControllerLog;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -22,6 +23,7 @@ public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 
     @Autowired
     private TokenService tokenService;
+
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {
 

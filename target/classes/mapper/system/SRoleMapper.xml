@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot_activiti.project.system.mapper.SRoleMapper">
+  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.system.domain.po.SRole">
+    <id column="role_Id" jdbcType="INTEGER" property="roleId" />
+    <result column="role_Name" jdbcType="VARCHAR" property="roleName" />
+    <result column="role_key" jdbcType="VARCHAR" property="roleKey" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="role_sort" jdbcType="VARCHAR" property="roleSort" />
+    <result column="menu_check_str" jdbcType="VARCHAR" property="menuCheckStr" />
+    <result column="dept_check_str" jdbcType="VARCHAR" property="deptCheckStr" />
+    <result column="del_flag" jdbcType="VARCHAR" property="delFlag" />
+    <result column="createBy" jdbcType="VARCHAR" property="createby" />
+    <result column="updateBy" jdbcType="VARCHAR" property="updateby" />
+    <result column="createTime" jdbcType="DATE" property="createtime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    role_Id, role_Name, role_key, `status`, role_sort, menu_check_str, dept_check_str, 
+    del_flag, createBy, updateBy, createTime
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from s_role
+    where role_Id = #{roleId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from s_role
+    where role_Id = #{roleId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="role_Id" keyProperty="roleId" parameterType="com.example.springboot_activiti.project.system.domain.po.SRole" useGeneratedKeys="true">
+    insert into s_role (role_Name, role_key, `status`, 
+      role_sort, menu_check_str, dept_check_str, 
+      del_flag, createBy, updateBy, 
+      createTime)
+    values (#{roleName,jdbcType=VARCHAR}, #{roleKey,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, 
+      #{roleSort,jdbcType=VARCHAR}, #{menuCheckStr,jdbcType=VARCHAR}, #{deptCheckStr,jdbcType=VARCHAR}, 
+      #{delFlag,jdbcType=VARCHAR}, #{createby,jdbcType=VARCHAR}, #{updateby,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" keyColumn="role_Id" keyProperty="roleId" parameterType="com.example.springboot_activiti.project.system.domain.po.SRole" useGeneratedKeys="true">
+    insert into s_role
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="roleName != null">
+        role_Name,
+      </if>
+      <if test="roleKey != null">
+        role_key,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="roleSort != null">
+        role_sort,
+      </if>
+      <if test="menuCheckStr != null">
+        menu_check_str,
+      </if>
+      <if test="deptCheckStr != null">
+        dept_check_str,
+      </if>
+      <if test="delFlag != null">
+        del_flag,
+      </if>
+      <if test="createby != null">
+        createBy,
+      </if>
+      <if test="updateby != null">
+        updateBy,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="roleName != null">
+        #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="roleKey != null">
+        #{roleKey,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="roleSort != null">
+        #{roleSort,jdbcType=VARCHAR},
+      </if>
+      <if test="menuCheckStr != null">
+        #{menuCheckStr,jdbcType=VARCHAR},
+      </if>
+      <if test="deptCheckStr != null">
+        #{deptCheckStr,jdbcType=VARCHAR},
+      </if>
+      <if test="delFlag != null">
+        #{delFlag,jdbcType=VARCHAR},
+      </if>
+      <if test="createby != null">
+        #{createby,jdbcType=VARCHAR},
+      </if>
+      <if test="updateby != null">
+        #{updateby,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.system.domain.po.SRole">
+    update s_role
+    <set>
+      <if test="roleName != null">
+        role_Name = #{roleName,jdbcType=VARCHAR},
+      </if>
+      <if test="roleKey != null">
+        role_key = #{roleKey,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="roleSort != null">
+        role_sort = #{roleSort,jdbcType=VARCHAR},
+      </if>
+      <if test="menuCheckStr != null">
+        menu_check_str = #{menuCheckStr,jdbcType=VARCHAR},
+      </if>
+      <if test="deptCheckStr != null">
+        dept_check_str = #{deptCheckStr,jdbcType=VARCHAR},
+      </if>
+      <if test="delFlag != null">
+        del_flag = #{delFlag,jdbcType=VARCHAR},
+      </if>
+      <if test="createby != null">
+        createBy = #{createby,jdbcType=VARCHAR},
+      </if>
+      <if test="updateby != null">
+        updateBy = #{updateby,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+    </set>
+    where role_Id = #{roleId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.system.domain.po.SRole">
+    update s_role
+    set role_Name = #{roleName,jdbcType=VARCHAR},
+      role_key = #{roleKey,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=INTEGER},
+      role_sort = #{roleSort,jdbcType=VARCHAR},
+      menu_check_str = #{menuCheckStr,jdbcType=VARCHAR},
+      dept_check_str = #{deptCheckStr,jdbcType=VARCHAR},
+      del_flag = #{delFlag,jdbcType=VARCHAR},
+      createBy = #{createby,jdbcType=VARCHAR},
+      updateBy = #{updateby,jdbcType=VARCHAR},
+      createTime = #{createtime,jdbcType=DATE}
+    where role_Id = #{roleId,jdbcType=INTEGER}
+  </update>
+</mapper>
