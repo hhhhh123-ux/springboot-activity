@@ -119,4 +119,14 @@
       createTime = #{createtime,jdbcType=DATE}
     where dept_Id = #{deptId,jdbcType=INTEGER}
   </update>
+  <select id="selectByList" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from s_dept
+    where
+          1=1
+    <if test="deptId != null">
+         and dept_Id = #{deptId,jdbcType=INTEGER}
+    </if>
+  </select>
 </mapper>

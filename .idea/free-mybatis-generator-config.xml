@@ -3,6 +3,30 @@
   <component name="PersistentConfig">
     <option name="historyConfigList">
       <map>
+        <entry key="s_leaveform">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SLeaveformMapper" />
+              <option name="daoPackage" value="com.example.springboot_activiti.project.act.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SLeaveform" />
+              <option name="modelPackage" value="com.example.springboot_activiti.project.act.doman" />
+              <option name="name" value="s_leaveform" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="s_leaveform" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="/mapper/act" />
+            </Config>
+          </value>
+        </entry>
         <entry key="s_log">
           <value>
             <Config>

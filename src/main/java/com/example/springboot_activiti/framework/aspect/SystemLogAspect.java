@@ -3,12 +3,12 @@ package com.example.springboot_activiti.framework.aspect;
 import com.alibaba.fastjson.JSONObject;
 import com.example.springboot_activiti.common.utils.ip.AddressUtils;
 import com.example.springboot_activiti.common.utils.ip.IpUtils;
+import com.example.springboot_activiti.framework.aspect.lang.SystemControllerLog;
 import com.example.springboot_activiti.framework.security.LoginUser;
 import com.example.springboot_activiti.framework.security.service.TokenService;
 import com.example.springboot_activiti.project.system.domain.po.SLog;
 import com.example.springboot_activiti.project.system.domain.po.SUser;
 import com.example.springboot_activiti.project.system.service.SysLogService;
-import com.example.springboot_activiti.project.system.service.impl.SystemControllerLog;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
@@ -22,7 +22,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 
-import java.io.IOException;
 
 import java.lang.reflect.Method;
 
@@ -45,7 +44,7 @@ public class SystemLogAspect {
     /*定义切点
      *  Controller层切点 注解拦截
      */
-    @Pointcut("@annotation(com.example.springboot_activiti.project.system.service.impl.SystemControllerLog)")
+    @Pointcut("@annotation(com.example.springboot_activiti.framework.aspect.lang.SystemControllerLog)")
     public void logPointCut() {
     }
 
@@ -129,13 +128,13 @@ public class SystemLogAspect {
         Object[] args = joinPoint.getArgs();
         if (args != null) {
             for (Object obj : args) {
-                /*   System.out.println("传递的参数" + obj);*/
                 params = obj.toString();
-                /*      System.out.println("传递的参数" + params);*/
-                logger.info("请求参数为：" + params);
-                /*保存请求参数*/
-                adminLog.setParams(params);
+                logger.info("参数为：" + params);
             }
+            params=args[0].toString();
+            logger.info("请求参数为：" + params);
+            /*保存请求参数*/
+            adminLog.setParams(params);
         }
 
 

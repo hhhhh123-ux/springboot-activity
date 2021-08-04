@@ -2,6 +2,8 @@ package com.example.springboot_activiti.project.system.mapper;
 
 import com.example.springboot_activiti.project.system.domain.po.SRole;
 
+import java.util.List;
+
 public interface SRoleMapper {
     int deleteByPrimaryKey(Integer roleId);
 
@@ -14,4 +16,6 @@ public interface SRoleMapper {
     int updateByPrimaryKeySelective(SRole record);
 
     int updateByPrimaryKey(SRole record);
+
+    List<SRole> selectByRoleName(String RoleName);
 }

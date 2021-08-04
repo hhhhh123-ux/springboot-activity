@@ -2,6 +2,8 @@ package com.example.springboot_activiti.project.system.mapper;
 
 import com.example.springboot_activiti.project.system.domain.po.SDept;
 
+import java.util.List;
+
 public interface SDeptMapper {
     int deleteByPrimaryKey(Integer deptId);
 
@@ -14,4 +16,6 @@ public interface SDeptMapper {
     int updateByPrimaryKeySelective(SDept record);
 
     int updateByPrimaryKey(SDept record);
+
+    List<SDept> selectByList(SDept record);
 }

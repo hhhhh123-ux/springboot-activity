@@ -44,15 +44,6 @@ public class GlobalExceptionHandler {
         }
         return AjaxResult.error(String.valueOf(e.getCode()), e.getMessage());
     }
-//
-//    @ExceptionHandler(CodeException.class)
-//    public Object validExceptionHandler(CodeException e) {
-//        log.error(e.getMessage(), e);
-//        if (StringUtils.isNull(e.getCode())) {
-//            return AjaxResult.error(e.getMessage());
-//        }
-//        return AjaxResult.error(String.valueOf(e.getCode()), e.getMessage());
-//    }
 
     @ExceptionHandler(NoHandlerFoundException.class)
     public AjaxResult handlerNoFoundException(Exception e) {

@@ -155,4 +155,11 @@
       createTime = #{createtime,jdbcType=DATE}
     where role_Id = #{roleId,jdbcType=INTEGER}
   </update>
+
+  <select id="selectByRoleName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from s_role
+    where role_Name = #{RoleName,jdbcType=INTEGER}
+  </select>
 </mapper>

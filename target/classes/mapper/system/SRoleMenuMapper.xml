@@ -60,4 +60,11 @@
       menu_id = #{menuId,jdbcType=INTEGER}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <insert id="insertSelectiveByList" keyColumn="id" keyProperty="id" parameterType="list" useGeneratedKeys="true">
+    insert into s_role_menu
+(role_id, menu_id) values
+<foreach collection="list" item="p" separator=",">
+(#{p.roleId},#{p.menuId})
+  </foreach>
+  </insert>
 </mapper>

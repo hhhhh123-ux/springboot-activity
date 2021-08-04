@@ -5,4 +5,6 @@ public class SystemConstant {
     public static final String list="list";
 
     public static final String add="add";
+
+    public static final String login="login";
 }

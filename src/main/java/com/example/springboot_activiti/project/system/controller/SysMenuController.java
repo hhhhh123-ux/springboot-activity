@@ -1,12 +1,12 @@
 package com.example.springboot_activiti.project.system.controller;
 
 import com.example.springboot_activiti.common.constant.SystemConstant;
+import com.example.springboot_activiti.framework.aspect.lang.SystemControllerLog;
 import com.example.springboot_activiti.framework.web.controller.BaseController;
 import com.example.springboot_activiti.framework.web.domain.AjaxResult;
 import com.example.springboot_activiti.framework.web.page.TableDataInfo;
 import com.example.springboot_activiti.project.system.domain.po.SMenu;
 import com.example.springboot_activiti.project.system.service.SysMenuService;
-import com.example.springboot_activiti.project.system.service.impl.SystemControllerLog;
 import org.springframework.web.bind.annotation.*;
 
 
@@ -22,7 +22,7 @@ public class SysMenuController extends BaseController {
     /**
      * 获取菜单列表
      */
-    @SystemControllerLog(operation = "菜单模板",type = SystemConstant.list,description="菜单列表")
+    @SystemControllerLog(description = "菜单列表",type = SystemConstant.list,operation = "菜单模块")
     @PostMapping("/list")
     public TableDataInfo list(@RequestBody SMenu menu)
     {
@@ -33,7 +33,7 @@ public class SysMenuController extends BaseController {
     /**
      * 获取菜单列表
      */
-    @SystemControllerLog(operation = "菜单模板",type =SystemConstant.add,description="增加菜单")
+    @SystemControllerLog(description = "增加菜单",type = SystemConstant.add,operation = "菜单模块")
     @PostMapping("/add")
     public AjaxResult add(@RequestBody SMenu menu)
     {
