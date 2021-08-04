@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot_activiti.project.act.mapper.SLeaveformMapper">
+  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.act.doman.SLeaveform">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="procInstId" jdbcType="VARCHAR" property="procinstid" />
+    <result column="proposer_Id" jdbcType="VARCHAR" property="proposerId" />
+    <result column="agent_Id" jdbcType="VARCHAR" property="agentId" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="leaveType" jdbcType="INTEGER" property="leavetype" />
+    <result column="leaveContent" jdbcType="VARCHAR" property="leavecontent" />
+    <result column="leaveTime" jdbcType="TIMESTAMP" property="leavetime" />
+    <result column="expireTime" jdbcType="TIMESTAMP" property="expiretime" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="endTime" jdbcType="TIMESTAMP" property="endtime" />
+    <result column="reply" jdbcType="VARCHAR" property="reply" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="currDate" jdbcType="DATE" property="currdate" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, procInstId, proposer_Id, agent_Id, title, leaveType, leaveContent, leaveTime, 
+    expireTime, createTime, endTime, reply, `status`, currDate
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from s_leaveform
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from s_leaveform
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform" useGeneratedKeys="true">
+    insert into s_leaveform (procInstId, proposer_Id, agent_Id, 
+      title, leaveType, leaveContent, 
+      leaveTime, expireTime, createTime, 
+      endTime, reply, `status`, 
+      currDate)
+    values (#{procinstid,jdbcType=VARCHAR}, #{proposerId,jdbcType=VARCHAR}, #{agentId,jdbcType=VARCHAR}, 
+      #{title,jdbcType=VARCHAR}, #{leavetype,jdbcType=INTEGER}, #{leavecontent,jdbcType=VARCHAR}, 
+      #{leavetime,jdbcType=TIMESTAMP}, #{expiretime,jdbcType=TIMESTAMP}, #{createtime,jdbcType=TIMESTAMP}, 
+      #{endtime,jdbcType=TIMESTAMP}, #{reply,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, 
+      #{currdate,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform" useGeneratedKeys="true">
+    insert into s_leaveform
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="procinstid != null">
+        procInstId,
+      </if>
+      <if test="proposerId != null">
+        proposer_Id,
+      </if>
+      <if test="agentId != null">
+        agent_Id,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="leavetype != null">
+        leaveType,
+      </if>
+      <if test="leavecontent != null">
+        leaveContent,
+      </if>
+      <if test="leavetime != null">
+        leaveTime,
+      </if>
+      <if test="expiretime != null">
+        expireTime,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+      <if test="endtime != null">
+        endTime,
+      </if>
+      <if test="reply != null">
+        reply,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="currdate != null">
+        currDate,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="procinstid != null">
+        #{procinstid,jdbcType=VARCHAR},
+      </if>
+      <if test="proposerId != null">
+        #{proposerId,jdbcType=VARCHAR},
+      </if>
+      <if test="agentId != null">
+        #{agentId,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="leavetype != null">
+        #{leavetype,jdbcType=INTEGER},
+      </if>
+      <if test="leavecontent != null">
+        #{leavecontent,jdbcType=VARCHAR},
+      </if>
+      <if test="leavetime != null">
+        #{leavetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="expiretime != null">
+        #{expiretime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endtime != null">
+        #{endtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="reply != null">
+        #{reply,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="currdate != null">
+        #{currdate,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform">
+    update s_leaveform
+    <set>
+      <if test="procinstid != null">
+        procInstId = #{procinstid,jdbcType=VARCHAR},
+      </if>
+      <if test="proposerId != null">
+        proposer_Id = #{proposerId,jdbcType=VARCHAR},
+      </if>
+      <if test="agentId != null">
+        agent_Id = #{agentId,jdbcType=VARCHAR},
+      </if>
+      <if test="title != null">
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="leavetype != null">
+        leaveType = #{leavetype,jdbcType=INTEGER},
+      </if>
+      <if test="leavecontent != null">
+        leaveContent = #{leavecontent,jdbcType=VARCHAR},
+      </if>
+      <if test="leavetime != null">
+        leaveTime = #{leavetime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="expiretime != null">
+        expireTime = #{expiretime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endtime != null">
+        endTime = #{endtime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="reply != null">
+        reply = #{reply,jdbcType=VARCHAR},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="currdate != null">
+        currDate = #{currdate,jdbcType=DATE},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform">
+    update s_leaveform
+    set procInstId = #{procinstid,jdbcType=VARCHAR},
+      proposer_Id = #{proposerId,jdbcType=VARCHAR},
+      agent_Id = #{agentId,jdbcType=VARCHAR},
+      title = #{title,jdbcType=VARCHAR},
+      leaveType = #{leavetype,jdbcType=INTEGER},
+      leaveContent = #{leavecontent,jdbcType=VARCHAR},
+      leaveTime = #{leavetime,jdbcType=TIMESTAMP},
+      expireTime = #{expiretime,jdbcType=TIMESTAMP},
+      createTime = #{createtime,jdbcType=TIMESTAMP},
+      endTime = #{endtime,jdbcType=TIMESTAMP},
+      reply = #{reply,jdbcType=VARCHAR},
+      `status` = #{status,jdbcType=INTEGER},
+      currDate = #{currdate,jdbcType=DATE}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>
