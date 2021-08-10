@@ -26,5 +26,7 @@ public class SDept implements Serializable {
 
     private Date createtime;
 
+    private String shen;
+
     private static final long serialVersionUID = 1L;
 }

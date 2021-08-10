@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.springboot_activiti.project.act.mapper.SLeaveformMapper">
-  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.act.doman.SLeaveform">
+  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.act.doman.po.SLeaveform">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="procInstId" jdbcType="VARCHAR" property="procinstid" />
     <result column="proposer_Id" jdbcType="VARCHAR" property="proposerId" />
@@ -16,10 +16,12 @@
     <result column="reply" jdbcType="VARCHAR" property="reply" />
     <result column="status" jdbcType="INTEGER" property="status" />
     <result column="currDate" jdbcType="DATE" property="currdate" />
+    <result column="deptId" jdbcType="INTEGER" property="deptId"/>
+    <result column="area" jdbcType="INTEGER" property="area"/>
   </resultMap>
   <sql id="Base_Column_List">
     id, procInstId, proposer_Id, agent_Id, title, leaveType, leaveContent, leaveTime, 
-    expireTime, createTime, endTime, reply, `status`, currDate
+    expireTime, createTime, endTime, reply, `status`, currDate,deptId,area
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -31,7 +33,7 @@
     delete from s_leaveform
     where id = #{id,jdbcType=INTEGER}
   </delete>
-  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform" useGeneratedKeys="true">
+  <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.act.doman.po.SLeaveform" useGeneratedKeys="true">
     insert into s_leaveform (procInstId, proposer_Id, agent_Id, 
       title, leaveType, leaveContent, 
       leaveTime, expireTime, createTime, 
@@ -43,7 +45,7 @@
       #{endtime,jdbcType=TIMESTAMP}, #{reply,jdbcType=VARCHAR}, #{status,jdbcType=INTEGER}, 
       #{currdate,jdbcType=DATE})
   </insert>
-  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform" useGeneratedKeys="true">
+  <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.example.springboot_activiti.project.act.doman.po.SLeaveform" useGeneratedKeys="true">
     insert into s_leaveform
     <trim prefix="(" suffix=")" suffixOverrides=",">
       <if test="procinstid != null">
@@ -84,6 +86,12 @@
       </if>
       <if test="currdate != null">
         currDate,
+      </if>
+      <if test="deptId != null">
+        deptId,
+      </if>
+      <if test="area != null">
+        area,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -126,9 +134,15 @@
       <if test="currdate != null">
         #{currdate,jdbcType=DATE},
       </if>
+      <if test="deptId != null">
+        #{deptId,jdbcType=INTEGER},
+      </if>
+      <if test="area != null">
+        #{area,jdbcType=INTEGER},
+      </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform">
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.act.doman.po.SLeaveform">
     update s_leaveform
     <set>
       <if test="procinstid != null">
@@ -173,7 +187,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.act.doman.SLeaveform">
+  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.act.doman.po.SLeaveform">
     update s_leaveform
     set procInstId = #{procinstid,jdbcType=VARCHAR},
       proposer_Id = #{proposerId,jdbcType=VARCHAR},
@@ -190,4 +204,15 @@
       currDate = #{currdate,jdbcType=DATE}
     where id = #{id,jdbcType=INTEGER}
   </update>
+  <select id="selectByTask" parameterType="java.lang.String" resultType="com.example.springboot_activiti.project.act.doman.LeaveVo">
+    select id as "id",procInstId as "procinstid", proposer_Id as "proposerId",title as "title",leaveType as "leaveType",deptId as "deptId",area as "area"
+    from s_leaveform
+    where procInstId = #{procinstid,jdbcType=VARCHAR}
+    <if test="deptId != null">
+      and deptId=#{deptId,jdbcType=INTEGER}
+    </if>
+    <if test="area != null">
+      and area=#{area,jdbcType=INTEGER}
+    </if>
+  </select>
 </mapper>

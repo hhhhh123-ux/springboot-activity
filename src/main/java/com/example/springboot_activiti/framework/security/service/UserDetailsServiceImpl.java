@@ -2,7 +2,9 @@ package com.example.springboot_activiti.framework.security.service;
 
 import com.example.springboot_activiti.common.exception.BaseException;
 import com.example.springboot_activiti.framework.security.LoginUser;
+import com.example.springboot_activiti.project.system.domain.po.SDept;
 import com.example.springboot_activiti.project.system.domain.po.SUser;
+import com.example.springboot_activiti.project.system.mapper.SDeptMapper;
 import com.example.springboot_activiti.project.system.mapper.SUserMapper;
 import com.example.springboot_activiti.project.system.service.SysUserService;
 import lombok.SneakyThrows;
@@ -20,10 +22,16 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     @Resource
     private SysUserService userService;
+    @Resource
+    private SDeptMapper deptMapper;
     @SneakyThrows
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         SUser sUser=userService.selectByUserName(username);
+        if(sUser.getDeptId()!=null){
+            sUser.setDept(deptMapper.selectByPrimaryKey(sUser.getDeptId()));
+        }
+
         if(sUser==null){
             throw new BaseException("未注册账号");
         }

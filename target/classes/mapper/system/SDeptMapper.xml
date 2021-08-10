@@ -10,9 +10,10 @@
     <result column="createBy" jdbcType="VARCHAR" property="createby" />
     <result column="updateBy" jdbcType="VARCHAR" property="updateby" />
     <result column="createTime" jdbcType="DATE" property="createtime" />
+    <result column="shen" jdbcType="VARCHAR" property="shen"/>
   </resultMap>
   <sql id="Base_Column_List">
-    dept_Id, dept_Name, parent_Id, `status`, order_Num, createBy, updateBy, createTime
+    dept_Id, dept_Name, parent_Id, `status`, order_Num, createBy, updateBy, createTime,shen
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select 
@@ -119,4 +120,14 @@
       createTime = #{createtime,jdbcType=DATE}
     where dept_Id = #{deptId,jdbcType=INTEGER}
   </update>
+  <select id="selectByList" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from s_dept
+    where
+          1=1
+    <if test="deptId != null">
+         and dept_Id = #{deptId,jdbcType=INTEGER}
+    </if>
+  </select>
 </mapper>

@@ -35,6 +35,21 @@ public class ActivitiDemo {
         System.out.println("name:" + deployment.getName());
     }
 
+    @Test
+    public void ApplyTest() {
+        //
+        ProcessEngine processEngine = ProcessEngines.getDefaultProcessEngine();
+        //
+        RepositoryService repositoryService = processEngine.getRepositoryService();
+
+        Deployment deployment = repositoryService.createDeployment()
+                .addClasspathResource("process/Apply.bpmn")
+                .addClasspathResource("process/Apply.png")
+                .name("申请流程")
+                .deploy();
+        System.out.println("id=" + deployment.getId());
+        System.out.println("name:" + deployment.getName());
+    }
     //开启流程
     @Test
     public void StartProcessTest() {

@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @MapperScan(basePackages = {"com.example.springboot_activiti.**.mapper"})
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
+@EnableScheduling
 public class SpringbootActivitiApplication {
 
     public static void main(String[] args) {

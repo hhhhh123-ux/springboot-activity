@@ -38,7 +38,7 @@ public class SUser extends BasePO {
 
     private String status;
 
-
+    private SDept dept;
 //    private String createby;
 //
 //    private String updateby;

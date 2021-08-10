@@ -26,7 +26,7 @@ import java.net.URL;
 public final class AddressUtils {
 
 
-    public static final String IP_URL = "http://ip.taobao.com/service/getIpInfo.php";
+    public static final String IP_URL = "http://whois.pconline.com.cn/ipJson.jsp";
 /*
 *
 * 获取用户系统，版本，浏览器

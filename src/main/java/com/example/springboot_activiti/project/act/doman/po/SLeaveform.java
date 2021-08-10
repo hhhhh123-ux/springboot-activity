@@ -1,4 +1,4 @@
-package com.example.springboot_activiti.project.act.doman;
+package com.example.springboot_activiti.project.act.doman.po;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -17,6 +17,7 @@ public class SLeaveform implements Serializable {
      */
     private String procinstid;
 
+    /** 发起人Id */
     private String proposerId;
 
     private String agentId;
@@ -46,6 +47,10 @@ public class SLeaveform implements Serializable {
     private Integer status;
 
     private Date currdate;
+
+    private Integer deptId;
+
+    private Integer area;
 
     private static final long serialVersionUID = 1L;
 }
