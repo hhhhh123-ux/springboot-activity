@@ -51,6 +51,54 @@
             </Config>
           </value>
         </entry>
+        <entry key="s_sku_stock">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SSkuStockMapper" />
+              <option name="daoPackage" value="com.example.springboot_activiti.project.code.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SSkuStock" />
+              <option name="modelPackage" value="com.example.springboot_activiti.project.code.domain.po" />
+              <option name="name" value="s_sku_stock" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="Id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="s_sku_stock" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="/mapper/code" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="s_sku_stock_batch">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="SSkuStockBatchMapper" />
+              <option name="daoPackage" value="com.example.springboot_activiti.project.code.mapper" />
+              <option name="daoPostfix" value="Mapper" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="SSkuStockBatch" />
+              <option name="modelPackage" value="com.example.springboot_activiti.project.code.domain.po" />
+              <option name="name" value="s_sku_stock_batch" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="Id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="s_sku_stock_batch" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="/mapper/code" />
+            </Config>
+          </value>
+        </entry>
         <entry key="s_user">
           <value>
             <Config>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.springboot_activiti.project.system.mapper.SDeptMapper">
+  <resultMap id="BaseResultMap" type="com.example.springboot_activiti.project.system.domain.po.SDept">
+    <id column="dept_Id" jdbcType="INTEGER" property="deptId" />
+    <result column="dept_Name" jdbcType="VARCHAR" property="deptName" />
+    <result column="parent_Id" jdbcType="INTEGER" property="parentId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="order_Num" jdbcType="INTEGER" property="orderNum" />
+    <result column="createBy" jdbcType="VARCHAR" property="createby" />
+    <result column="updateBy" jdbcType="VARCHAR" property="updateby" />
+    <result column="createTime" jdbcType="DATE" property="createtime" />
+    <result column="shen" jdbcType="VARCHAR" property="shen"/>
+  </resultMap>
+  <sql id="Base_Column_List">
+    dept_Id, dept_Name, parent_Id, `status`, order_Num, createBy, updateBy, createTime,shen
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from s_dept
+    where dept_Id = #{deptId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from s_dept
+    where dept_Id = #{deptId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" keyColumn="dept_Id" keyProperty="deptId" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept" useGeneratedKeys="true">
+    insert into s_dept (dept_Name, parent_Id, `status`, 
+      order_Num, createBy, updateBy, 
+      createTime)
+    values (#{deptName,jdbcType=VARCHAR}, #{parentId,jdbcType=INTEGER}, #{status,jdbcType=VARCHAR}, 
+      #{orderNum,jdbcType=INTEGER}, #{createby,jdbcType=VARCHAR}, #{updateby,jdbcType=VARCHAR}, 
+      #{createtime,jdbcType=DATE})
+  </insert>
+  <insert id="insertSelective" keyColumn="dept_Id" keyProperty="deptId" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept" useGeneratedKeys="true">
+    insert into s_dept
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="deptName != null">
+        dept_Name,
+      </if>
+      <if test="parentId != null">
+        parent_Id,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="orderNum != null">
+        order_Num,
+      </if>
+      <if test="createby != null">
+        createBy,
+      </if>
+      <if test="updateby != null">
+        updateBy,
+      </if>
+      <if test="createtime != null">
+        createTime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="deptName != null">
+        #{deptName,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        #{parentId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="orderNum != null">
+        #{orderNum,jdbcType=INTEGER},
+      </if>
+      <if test="createby != null">
+        #{createby,jdbcType=VARCHAR},
+      </if>
+      <if test="updateby != null">
+        #{updateby,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        #{createtime,jdbcType=DATE},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept">
+    update s_dept
+    <set>
+      <if test="deptName != null">
+        dept_Name = #{deptName,jdbcType=VARCHAR},
+      </if>
+      <if test="parentId != null">
+        parent_Id = #{parentId,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="orderNum != null">
+        order_Num = #{orderNum,jdbcType=INTEGER},
+      </if>
+      <if test="createby != null">
+        createBy = #{createby,jdbcType=VARCHAR},
+      </if>
+      <if test="updateby != null">
+        updateBy = #{updateby,jdbcType=VARCHAR},
+      </if>
+      <if test="createtime != null">
+        createTime = #{createtime,jdbcType=DATE},
+      </if>
+    </set>
+    where dept_Id = #{deptId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept">
+    update s_dept
+    set dept_Name = #{deptName,jdbcType=VARCHAR},
+      parent_Id = #{parentId,jdbcType=INTEGER},
+      `status` = #{status,jdbcType=VARCHAR},
+      order_Num = #{orderNum,jdbcType=INTEGER},
+      createBy = #{createby,jdbcType=VARCHAR},
+      updateBy = #{updateby,jdbcType=VARCHAR},
+      createTime = #{createtime,jdbcType=DATE}
+    where dept_Id = #{deptId,jdbcType=INTEGER}
+  </update>
+  <select id="selectByList" parameterType="com.example.springboot_activiti.project.system.domain.po.SDept" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from s_dept
+    where
+          1=1
+    <if test="deptId != null">
+         and dept_Id = #{deptId,jdbcType=INTEGER}
+    </if>
+  </select>
+</mapper>

@@ -19,143 +19,55 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1382fe13-658f-4d06-9983-35591434938d" name="Default Changelist" comment="中间件">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/utils/mail/JavaMailUtils.java" afterDir="false" />
+    <list default="true" id="1382fe13-658f-4d06-9983-35591434938d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/utils/excel/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/utils/file/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/config/RuConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/web/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/controller/CodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/domain/dto/Code.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/mapper/codeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/service/CodeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/service/impl/CodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/excel/controller/ExcelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/test/domain/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/test/domain/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/test/ArrayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prd.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/code/CodeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/IntDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d3a713e-8562-49ff-ba99-8732cad12c58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d3a713e-8562-49ff-ba99-8732cad12c58.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_activiti.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_activiti.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/act/controller/SLeaveformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/act/controller/SLeaveformController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/activiti.cfg.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/SpringbootActivitiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/AjaxConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/CaptchConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/Constant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/LeaveFormConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/SystemConstant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/core/text/CharsetKit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/core/text/Convert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/core/text/StrFormatter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/exception/BaseException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/exception/CustomException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/exception/role/RoleException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/exception/user/CaptchException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/exception/user/CodeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/exception/user/UserException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/Base64.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/DateUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/MessageUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/RandomUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/SecurityUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/ServletUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/StringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/ip/AddressUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/ip/IpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/spring/SpringUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/utils/sql/SqlUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/aspect/BindingResultAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/aspect/SystemLogAspect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/aspect/lang/BindingResultLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/aspect/lang/SystemControllerLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/redis/RedisUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/LoginBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/LoginUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/config/ResourcesConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/config/WebSecurityConf.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/handle/AccessFailureHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/handle/CustomizeAuthenticationEntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/handle/LoginFailureHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/handle/LoginSuccessHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/handle/LogoutSuccessHandlerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/service/TokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/service/UserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/controller/BaseController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/controller/BaseController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/controller/CaptchaImageController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/domain/AjaxResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/domain/TreeSelect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/domain/VerifyCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/domain/po/BasePO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/expection/GlobalExceptionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/page/PageDomain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/page/TableDataInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/page/TableSupport.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/service/BaseServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/service/IVerifyCodeGen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/web/service/IVerifyCodeGenImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/controller/SLeaveformController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/doman/LeaveCompleteDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/doman/LeaveCurrentDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/doman/LeaveFormDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/doman/LeaveHistoryDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/doman/LeaveVo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/doman/po/SLeaveform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/mapper/SLeaveformMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/service/SLeaveformService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/service/impl/SLeaveformServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysDeptController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysLoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysRoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysUserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SDept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SRoleMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/domain/po/SUserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SDeptMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SLogMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SMenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SRoleMenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/mapper/SUserRoleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/SysDeptService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/SysLogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/SysLoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/SysMenuService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/SysRoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/SysUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysDeptServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysLogServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysLoginserviceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysMenuServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysRoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/test/RarcApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/test/RunnableApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/test/SchedulerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/test/ThreadApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/messages.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/act/SLeaveformMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SDeptMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SLogMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SRoleMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/system/SUserRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/Apply.bpmn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/Apply.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/Apply.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/Leave.bpmn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/Leave.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/process/Leave.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/ActivitiDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/HashMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/PassWordTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/SchedulerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/SpringbootActivitiApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/ThreadDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/HashMapDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +79,7 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="AnnotationType" />
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -214,7 +127,7 @@
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="MyBatisLogPluginindexNum" value="195" />
+    <property name="MyBatisLogPluginindexNum" value="226" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -227,7 +140,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/process" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.691954" />
@@ -237,16 +150,13 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xue\springboot_activiti\sql" />
+      <recent name="D:\xue\springboot_activiti\src\main\resources\mapper" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.springboot_activiti.project.act.doman.po" />
       <recent name="com.example.springboot_activiti" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xue\springboot_activiti\src\main\resources\process" />
-      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework" />
-      <recent name="D:\xue\springboot_activiti\src\main\resources" />
-      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web\page" />
-      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.springboot_activiti.framework.aspect.lang" />
@@ -255,13 +165,29 @@
       <recent name="com.example.springboot_activiti.framework.web.expection" />
       <recent name="com.example.springboot_activiti.common.exception.user" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xue\springboot_activiti\sql" />
-      <recent name="D:\xue\springboot_activiti\src\main\resources\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xue\springboot_activiti\src\main\resources" />
+      <recent name="D:\xue\springboot_activiti\src\main\resources\process" />
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework" />
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web\page" />
+      <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootActivitiApplication">
-    <configuration name="ActivitiDemo.ApplyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.longestDemo.Test">
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.project.test.domain.Solution" />
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.project.test.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapDemo.ListNodetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_activiti" />
       <extension name="coverage">
         <pattern>
@@ -270,14 +196,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ActivitiDemo" />
-      <option name="METHOD_NAME" value="ApplyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.HashMapDemo" />
+      <option name="METHOD_NAME" value="ListNodetest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadDemo.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_activiti" />
       <extension name="coverage">
         <pattern>
@@ -286,35 +212,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ThreadDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.IntDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.StringDemo" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="longestDemo.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.longestDemo" />
       <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RarcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_activiti" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springboot_activiti.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot_activiti.test.RarcApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunnableApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_activiti" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springboot_activiti.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot_activiti.test.RunnableApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -326,26 +258,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_activiti" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springboot_activiti.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springboot_activiti.test.ThreadApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RarcApplication" />
-        <item itemvalue="Spring Boot.RunnableApplication" />
-        <item itemvalue="Spring Boot.ThreadApplication" />
-        <item itemvalue="JUnit.ThreadDemo.Test" />
-        <item itemvalue="JUnit.ActivitiDemo.ApplyTest" />
+        <item itemvalue="JUnit.longestDemo.Test" />
+        <item itemvalue="JUnit.IntDemo.test" />
+        <item itemvalue="JUnit.StringDemo.test" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.HashMapDemo.ListNodetest" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +292,23 @@
       <workItem from="1628474473791" duration="16376000" />
       <workItem from="1628559569835" duration="14623000" />
       <workItem from="1628645526461" duration="8819000" />
-      <workItem from="1628664249961" duration="2522000" />
+      <workItem from="1628664249961" duration="4570000" />
+      <workItem from="1628749339646" duration="2543000" />
+      <workItem from="1628818813730" duration="563000" />
+      <workItem from="1628834930244" duration="10757000" />
+      <workItem from="1629079496729" duration="2553000" />
+      <workItem from="1629163437499" duration="236000" />
+      <workItem from="1629163759884" duration="1821000" />
+      <workItem from="1629250961668" duration="5714000" />
+      <workItem from="1629272305978" duration="2312000" />
+      <workItem from="1629335931663" duration="12213000" />
+      <workItem from="1629422908057" duration="7396000" />
+      <workItem from="1629682604785" duration="1865000" />
+      <workItem from="1630037669353" duration="1569000" />
+      <workItem from="1630982672743" duration="33562000" />
+      <workItem from="1631151991184" duration="2354000" />
+      <workItem from="1631174212224" duration="2623000" />
+      <workItem from="1631240337478" duration="15360000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1627639648032</created>
@@ -466,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628651756063</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="提交">
+      <created>1628670706519</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1628670706519</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,7 +425,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -501,14 +443,14 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Revert &quot;提交&quot;&#10;&#10;This reverts commit 21a00592" />
-    <MESSAGE value="提交" />
     <MESSAGE value="Aop中日志" />
     <MESSAGE value="Aop中字段val" />
     <MESSAGE value="Aop中字段log和请假" />
     <MESSAGE value="中间件" />
     <MESSAGE value="1" />
     <MESSAGE value="发送邮箱" />
-    <option name="LAST_COMMIT_MESSAGE" value="发送邮箱" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627372519361">
@@ -519,14 +461,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1628064258786" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1628564177817">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629343518030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1628564177817" />
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1628064357788">
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1629343518030" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1629343229884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1628064357788" />
+    <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1629343229884" />
     <state x="236" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1627525718606">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -539,18 +481,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="189" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1627543892705" />
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628057203421">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629343167653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1628057203421" />
-    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1628651752671">
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1629343167653" />
+    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1628670703271">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628651752671" />
-    <state width="538" height="466" key="DebuggerActiveHint" timestamp="1628233314429">
+    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628670703271" />
+    <state width="538" height="466" key="DebuggerActiveHint" timestamp="1631003138559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="538" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1628233314429" />
+    <state width="538" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1631003138559" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1628670666633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -559,58 +501,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1628217912903" />
-    <state width="1323" height="280" key="GridCell.Tab.0.bottom" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.0.center" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.0.left" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.0.right" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.1.bottom" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.1.bottom" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.1.center" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.1.center" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.1.left" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.1.left" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.1.right" timestamp="1628662534944">
+    <state width="1323" height="137" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="1323" height="137" key="GridCell.Tab.1.right" timestamp="1631266726696">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.2.bottom" timestamp="1628662534945">
+    <state width="1323" height="137" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
+    <state width="891" height="268" key="GridCell.Tab.2.bottom" timestamp="1629355125011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1628662534945" />
-    <state width="1323" height="280" key="GridCell.Tab.2.center" timestamp="1628662534945">
+    <state width="891" height="268" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
+    <state width="891" height="268" key="GridCell.Tab.2.center" timestamp="1629355125011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1628662534945" />
-    <state width="1323" height="280" key="GridCell.Tab.2.left" timestamp="1628662534944">
+    <state width="891" height="268" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
+    <state width="891" height="268" key="GridCell.Tab.2.left" timestamp="1629355125011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1628662534944" />
-    <state width="1323" height="280" key="GridCell.Tab.2.right" timestamp="1628662534945">
+    <state width="891" height="268" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
+    <state width="891" height="268" key="GridCell.Tab.2.right" timestamp="1629355125011">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="280" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1628662534945" />
-    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1628064615483">
+    <state width="891" height="268" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
+    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1628834981402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1628064615483" />
+    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1628834981402" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1627958143572">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -619,10 +561,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="54" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628670285073" />
-    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2" timestamp="1628651792749">
+    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2" timestamp="1628670726970">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628651792749" />
+    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628670726970" />
     <state x="418" y="97" key="VcsDiffUtil.ChangesDialog" timestamp="1627639909940">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -635,10 +577,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="423" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1628564174279" />
-    <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1628230895123">
+    <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631266212916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1628230895123" />
+    <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1631266212916" />
     <state x="467" y="0" width="915" height="615" key="dock-window-1" timestamp="1627446646815">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -647,10 +589,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="200" y="14" width="915" height="615" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1627446646815" />
-    <state x="385" y="98" width="700" height="532" key="find.popup" timestamp="1628580648797">
+    <state x="385" y="98" width="700" height="532" key="find.popup" timestamp="1629447344112">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="385" y="98" width="700" height="532" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1628580648797" />
+    <state x="385" y="98" width="700" height="532" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1629447344112" />
     <state x="502" y="224" key="git4idea.rebase.GitRebaseDialog" timestamp="1627639801767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -663,14 +605,76 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1627545925894" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1628151883887">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1631255103568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1628151883887" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1631255103568" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/test/domain/ListNode.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/test/domain/ListNode.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/IntDemo.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/IntDemo.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/IntDemo.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
+          <line>15</line>
+          <properties class="com.example.springboot_activiti.longestDemo" method="longestPalindrome">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/springboot_activiti$ActivitiDemo_Test.ic" NAME="ActivitiDemo.Test Coverage Results" MODIFIED="1627446873696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.springboot_activiti.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/springboot_activiti$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1631068764752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.springboot_activiti.project.test.domain.*</FILTER>
     </SUITE>
   </component>
 </project>
