@@ -63,7 +63,6 @@ public class HashMapDemo {
                  System.out.println("log");
                 a[0]=params.get(sum);
                 a[1]=i;
-
             }
             params.put(nums[i],i);
         }
@@ -72,6 +71,10 @@ public class HashMapDemo {
 
     @Test
     public void ListNodetest(){
+        Long[] roleIds = {(long) 380};
+        for(Long role:roleIds){
+            System.out.println(role);
+        }
 
     }
 

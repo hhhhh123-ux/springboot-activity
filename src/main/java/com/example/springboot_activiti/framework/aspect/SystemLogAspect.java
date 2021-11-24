@@ -1,9 +1,11 @@
 package com.example.springboot_activiti.framework.aspect;
 
 import com.alibaba.fastjson.JSONObject;
+import com.example.springboot_activiti.common.utils.DateUtils;
 import com.example.springboot_activiti.common.utils.ip.AddressUtils;
 import com.example.springboot_activiti.common.utils.ip.IpUtils;
 import com.example.springboot_activiti.framework.aspect.lang.SystemControllerLog;
+import com.example.springboot_activiti.framework.config.SysLogThread;
 import com.example.springboot_activiti.framework.security.LoginUser;
 import com.example.springboot_activiti.framework.security.service.TokenService;
 import com.example.springboot_activiti.project.system.domain.po.SLog;
@@ -15,15 +17,20 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 
 import java.lang.reflect.Method;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 
 @Aspect
@@ -32,6 +39,9 @@ public class SystemLogAspect {
 
     private static Logger logger = LoggerFactory.getLogger(SystemLogAspect.class);
 
+    private ThreadLocal<SLog> webLogBeanThreadLocal = new ThreadLocal<>();
+    private ThreadLocal<Long> startTimeThreadLocal=new ThreadLocal<>();
+    private ThreadLocal<Boolean> isPersistentThreadLocal=new ThreadLocal<>();
     /**
      * 操作数据库
      */
@@ -40,6 +50,9 @@ public class SystemLogAspect {
 
     @Autowired
     private TokenService tokenService;
+
+    @Autowired
+    private WebLogHandler webLogHandler;
 
     /*定义切点
      *  Controller层切点 注解拦截
@@ -79,7 +92,8 @@ public class SystemLogAspect {
      * @描述: 处理封装 OperLog
      * @date:
      */
-    public void HandelLog(JoinPoint joinPoint, HttpServletRequest request, Throwable e)  {
+
+    public void HandelLog(JoinPoint joinPoint, HttpServletRequest request, Throwable e) {
         logger.info("调用日志监控");
         SLog adminLog = new SLog();
         /*从切面值入点获取植入点方法*/
@@ -88,6 +102,13 @@ public class SystemLogAspect {
         Method method = signature.getMethod();
         /*获取方法上的值*/
         SystemControllerLog systemControllerLog = method.getAnnotation(SystemControllerLog.class);
+
+
+
+            long startTime= DateUtils.getNowDate().getTime();
+            Date date=new Date(startTime);
+            adminLog.setTime(date);
+
         /*保存操作事件*/
         if (systemControllerLog != null) {
             String operation = systemControllerLog.operation();
@@ -131,7 +152,7 @@ public class SystemLogAspect {
                 params = obj.toString();
                 logger.info("参数为：" + params);
             }
-            params=args[0].toString();
+            params = args[0].toString();
             logger.info("请求参数为：" + params);
             /*保存请求参数*/
             adminLog.setParams(params);
@@ -139,32 +160,33 @@ public class SystemLogAspect {
 
 
         LoginUser loginUser = tokenService.getLoginUser(request);
-        if(loginUser!=null){
+        if (loginUser != null) {
             SUser user = loginUser.getUser();
             String userName = user.getUserName();
             adminLog.setOperuser(userName);
             logger.info("操作员是" + userName);
             logger.info("操作员Id为" + user.getUserId());
-        }else{
+        } else {
 
-      String user= JSONObject.toJSONString(joinPoint.getArgs());
-      System.out.println(user.replace("[","").replace("]",""));
-      JSONObject jsonObject=JSONObject.parseObject(user.replace("[","").replace("]",""));
-      String username=(jsonObject.get("username")).toString();
-      System.out.println(username);
-      adminLog.setOperuser(username);
+            String user = JSONObject.toJSONString(joinPoint.getArgs());
+            System.out.println(user.replace("[", "").replace("]", ""));
+            JSONObject jsonObject = JSONObject.parseObject(user.replace("[", "").replace("]", ""));
+            String username = (jsonObject.get("username")).toString();
+            System.out.println(username);
+            adminLog.setOperuser(username);
         }
-            if (method.isAnnotationPresent(SystemControllerLog.class)) {
-                if(e==null){
-                    adminLog.setErrormsg("成功");
-                }else{
-                    adminLog.setErrormsg(e.getMessage());
-                }
-
+        if (method.isAnnotationPresent(SystemControllerLog.class)) {
+            if (e == null) {
+                adminLog.setErrormsg("成功");
+            } else {
+                adminLog.setErrormsg(e.getMessage());
             }
-        adminLog.setParams(params);
-        addLogService.addLog(adminLog);
 
+        }
+        adminLog.setParams(params);
+        logger.info("插入数据");
+        webLogHandler.processLog(adminLog);
+        logger.info("插入完成");
     }
 
 

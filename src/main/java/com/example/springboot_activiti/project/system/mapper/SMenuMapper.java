@@ -18,4 +18,6 @@ public interface SMenuMapper {
     int updateByPrimaryKey(SMenu record);
 
      List<SMenu> selectList(SMenu menu);
+
+    public List<String> selectMenuPermsByUserId(Integer userId);
 }

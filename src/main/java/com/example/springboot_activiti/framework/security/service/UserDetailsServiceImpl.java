@@ -6,6 +6,7 @@ import com.example.springboot_activiti.project.system.domain.po.SDept;
 import com.example.springboot_activiti.project.system.domain.po.SUser;
 import com.example.springboot_activiti.project.system.mapper.SDeptMapper;
 import com.example.springboot_activiti.project.system.mapper.SUserMapper;
+import com.example.springboot_activiti.project.system.service.PermissionService;
 import com.example.springboot_activiti.project.system.service.SysUserService;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import sun.net.ftp.FtpDirEntry;
 
 import javax.annotation.Resource;
 
@@ -22,6 +24,8 @@ public class UserDetailsServiceImpl implements UserDetailsService {
     @Autowired
     @Resource
     private SysUserService userService;
+    @Autowired
+    private PermissionService permissionService;
     @Resource
     private SDeptMapper deptMapper;
     @SneakyThrows
@@ -35,8 +39,11 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         if(sUser==null){
             throw new BaseException("未注册账号");
         }
-        LoginUser loginUser=new LoginUser();
-        loginUser.setUser(sUser);
-        return loginUser;
+        return createToken(sUser);
+    }
+
+    public UserDetails createToken(SUser sUser){
+
+        return new LoginUser(sUser,permissionService.hasMenuPermission(sUser));
     }
 }

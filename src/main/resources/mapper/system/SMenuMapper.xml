@@ -157,4 +157,13 @@
       and  menu_Type = #{menuType,jdbcType=INTEGER}
     </if>
   </select>
+
+  <select id="selectMenuPermsByUserId" parameterType="java.lang.Integer" resultType="String" >
+    select distinct m.menu_Url
+    from s_menu m
+           left join s_role_menu rm on m.menu_id = rm.menu_id
+           left join s_user_role ur on rm.role_id = ur.role_id
+           left join s_role r on r.role_id = ur.role_id
+    where m.status = '0' and r.status = '0' and ur.user_id = #{userId}
+  </select>
 </mapper>

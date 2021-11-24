@@ -22,7 +22,6 @@ import org.springframework.web.filter.CorsFilter;
 import javax.annotation.Resource;
 
 @Configuration
-@EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class WebSecurityConf extends WebSecurityConfigurerAdapter {
 

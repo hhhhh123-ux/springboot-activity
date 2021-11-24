@@ -1,5 +1,6 @@
 package com.example.springboot_activiti.project.system.service.impl;
 
+import com.example.springboot_activiti.common.utils.StringUtils;
 import com.example.springboot_activiti.framework.web.domain.TreeSelect;
 import com.example.springboot_activiti.framework.web.service.BaseServiceImpl;
 import com.example.springboot_activiti.project.system.domain.po.SMenu;
@@ -9,10 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Service
@@ -128,5 +126,20 @@ public class SysMenuServiceImpl extends BaseServiceImpl implements SysMenuServic
             }
         }
         return tlist;
+    }
+
+    @Override
+    public Set<String> selectMenuPermsByUserId(Integer userId) {
+
+        List<String> perms = menuMapper.selectMenuPermsByUserId(userId);
+        Set<String> permsSet = new HashSet<>();
+        for (String perm : perms)
+        {
+            if (StringUtils.isNotEmpty(perm))
+            {
+                permsSet.addAll(Arrays.asList(perm.trim().split(",")));
+            }
+        }
+        return permsSet;
     }
 }

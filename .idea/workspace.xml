@@ -27,47 +27,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1382fe13-658f-4d06-9983-35591434938d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_jakarta_mail_1_6_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_SparseBitSet_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_2_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/utils/excel/ExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/utils/file/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/config/RuConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/web/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/controller/CodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/domain/dto/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/mapper/codeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/service/CodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/service/impl/CodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/excel/controller/ExcelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/test/domain/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/test/domain/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/test/ArrayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prd.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/code/CodeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/IntDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/StringDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d3a713e-8562-49ff-ba99-8732cad12c58.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d3a713e-8562-49ff-ba99-8732cad12c58.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/free-mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/aspect/AbstractWebLogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/aspect/DefaultWebLogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/aspect/WebLogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/config/ExecutorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/config/SysLogThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/service/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/JVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/NDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/ReverseDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_activiti.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_activiti.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/SpringbootActivitiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/SpringbootActivitiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/constant/SystemConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/common/constant/SystemConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/aspect/SystemLogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/aspect/SystemLogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/LoginUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/config/WebSecurityConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/config/WebSecurityConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/service/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/act/controller/SLeaveformController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/act/controller/SLeaveformController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/controller/CodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/code/controller/CodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/mapper/SMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/mapper/SMenuMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/SysMenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/SysMenuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/impl/SysLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/impl/SysMenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/project/system/service/impl/SysMenuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/system/SMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/system/SMenuMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/HashMapDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/HashMapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/SpringbootActivitiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/SpringbootActivitiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/SystemConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/common/constant/SystemConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/aspect/SystemLogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/aspect/SystemLogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/config/WebSecurityConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/config/WebSecurityConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/framework/security/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/controller/SLeaveformController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/act/controller/SLeaveformController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/code/controller/CodeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/code/controller/CodeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/controller/SysUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysLogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/springboot_activiti/project/system/service/impl/SysLogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/HashMapDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/springboot_activiti/HashMapDemo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +124,7 @@
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="MyBatisLogPluginindexNum" value="226" />
+    <property name="MyBatisLogPluginindexNum" value="372" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
@@ -144,7 +141,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.691954" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -173,20 +170,7 @@
       <recent name="D:\xue\springboot_activiti\src\main\java\com\example\springboot_activiti\framework\web" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.longestDemo.Test">
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.project.test.domain.Solution" />
-      <module name="springboot_activiti" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.springboot_activiti.project.test.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.SpringbootActivitiApplication">
     <configuration name="HashMapDemo.ListNodetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_activiti" />
       <extension name="coverage">
@@ -203,8 +187,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JVM.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_activiti" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.springboot_activiti.*" />
@@ -212,15 +197,18 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.IntDemo" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.JVM" />
+      <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Xmx8m -Xms8m -XX:+PrintGCDetails" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JVM.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_activiti" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.springboot_activiti.*" />
@@ -228,14 +216,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.StringDemo" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.JVM" />
+      <option name="METHOD_NAME" value="Test2" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="longestDemo.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JVM.Test3" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="springboot_activiti" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.springboot_activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.JVM" />
+      <option name="METHOD_NAME" value="Test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Xms1m -Xmx8m -XX:+HeapDumpOnOutOfMemoryError" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseDemo.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_activiti" />
       <extension name="coverage">
         <pattern>
@@ -244,7 +254,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.springboot_activiti" />
-      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.longestDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.example.springboot_activiti.ReverseDemo" />
       <option name="METHOD_NAME" value="Test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -258,13 +268,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.JVM.Test3" />
+      <item itemvalue="JUnit.JVM.Test" />
+      <item itemvalue="JUnit.JVM.Test2" />
+      <item itemvalue="JUnit.ReverseDemo.Test" />
+      <item itemvalue="JUnit.HashMapDemo.ListNodetest" />
+      <item itemvalue="Spring Boot.SpringbootActivitiApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.longestDemo.Test" />
-        <item itemvalue="JUnit.IntDemo.test" />
-        <item itemvalue="JUnit.StringDemo.test" />
-        <item itemvalue="Application.Solution" />
         <item itemvalue="JUnit.HashMapDemo.ListNodetest" />
+        <item itemvalue="JUnit.JVM.Test" />
+        <item itemvalue="JUnit.JVM.Test2" />
+        <item itemvalue="JUnit.ReverseDemo.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -309,6 +326,19 @@
       <workItem from="1631151991184" duration="2354000" />
       <workItem from="1631174212224" duration="2623000" />
       <workItem from="1631240337478" duration="15360000" />
+      <workItem from="1632280090485" duration="17404000" />
+      <workItem from="1632362111676" duration="12467000" />
+      <workItem from="1632382827031" duration="1793000" />
+      <workItem from="1632465244205" duration="4458000" />
+      <workItem from="1632472154462" duration="1114000" />
+      <workItem from="1632619973928" duration="1857000" />
+      <workItem from="1632726937838" duration="1452000" />
+      <workItem from="1632812928386" duration="6394000" />
+      <workItem from="1632878416210" duration="3094000" />
+      <workItem from="1633659412461" duration="1634000" />
+      <workItem from="1637551687174" duration="14514000" />
+      <workItem from="1637630754484" duration="7851000" />
+      <workItem from="1637717183914" duration="10174000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1627639648032</created>
@@ -408,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628670706519</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加">
+      <created>1632280264090</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1632280264090</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,165 +487,118 @@
     <MESSAGE value="1" />
     <MESSAGE value="发送邮箱" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="增加" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1627372519361">
+    <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632817286989">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1627372519361" />
-    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628064258786">
+    <state x="238" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1632817286989" />
+    <state x="564" y="69" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1632815447530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="443" y="164" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1628064258786" />
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1629343518030">
+    <state x="564" y="69" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728@0.0.1366.728" timestamp="1632815447530" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser" timestamp="1637719950673">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1629343518030" />
+    <state x="488" y="69" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1637719950673" />
     <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1629343229884">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="139" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1629343229884" />
-    <state x="236" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1627525718606">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="236" y="286" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1627525718606" />
-    <state x="427" y="230" width="939" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1628128928348">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="427" y="230" width="939" height="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1628128928348" />
-    <state x="189" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1627543892705">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="189" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1627543892705" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629343167653">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1629343167653" />
-    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1628670703271">
+    <state x="95" y="0" key="CommitChangelistDialog2" timestamp="1632280257041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1628670703271" />
-    <state width="538" height="466" key="DebuggerActiveHint" timestamp="1631003138559">
+    <state x="95" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1632280257041" />
+    <state width="538" height="466" key="DebuggerActiveHint" timestamp="1637652357004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="538" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1631003138559" />
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1628670666633">
+    <state width="538" height="466" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1637652357004" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1632815465229">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1628670666633" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1628217912903">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1632815465229" />
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom" timestamp="1637724224636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1628217912903" />
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637724224636" />
+    <state width="1323" height="272" key="GridCell.Tab.0.center" timestamp="1637724224636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.0.center" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1637724224636" />
+    <state width="1323" height="272" key="GridCell.Tab.0.left" timestamp="1637724224636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.0.left" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1637724224636" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right" timestamp="1637724224636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.0.right" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1637724224636" />
+    <state width="1323" height="272" key="GridCell.Tab.1.bottom" timestamp="1637724208502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.1.bottom" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637724208502" />
+    <state width="1323" height="272" key="GridCell.Tab.1.center" timestamp="1637724208502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.1.center" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1637724208502" />
+    <state width="1323" height="272" key="GridCell.Tab.1.left" timestamp="1637724208502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.1.left" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1637724208502" />
+    <state width="1323" height="272" key="GridCell.Tab.1.right" timestamp="1637724208502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="1323" height="137" key="GridCell.Tab.1.right" timestamp="1631266726696">
+    <state width="1323" height="272" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1637724208502" />
+    <state width="1323" height="171" key="GridCell.Tab.2.bottom" timestamp="1637724091100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="137" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631266726696" />
-    <state width="891" height="268" key="GridCell.Tab.2.bottom" timestamp="1629355125011">
+    <state width="1323" height="171" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1637724091100" />
+    <state width="1323" height="171" key="GridCell.Tab.2.center" timestamp="1637724091100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="891" height="268" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
-    <state width="891" height="268" key="GridCell.Tab.2.center" timestamp="1629355125011">
+    <state width="1323" height="171" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1637724091100" />
+    <state width="1323" height="171" key="GridCell.Tab.2.left" timestamp="1637724091100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="891" height="268" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
-    <state width="891" height="268" key="GridCell.Tab.2.left" timestamp="1629355125011">
+    <state width="1323" height="171" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1637724091100" />
+    <state width="1323" height="171" key="GridCell.Tab.2.right" timestamp="1637724091100">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="891" height="268" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
-    <state width="891" height="268" key="GridCell.Tab.2.right" timestamp="1629355125011">
+    <state width="1323" height="171" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1637724091100" />
+    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1632814169952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="891" height="268" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1629355125011" />
-    <state x="263" y="98" key="IDE.errors.dialog" timestamp="1628834981402">
+    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1632814169952" />
+    <state x="155" y="0" width="998" height="708" key="SettingsEditor" timestamp="1637720213535">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="98" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1628834981402" />
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1627958143572">
+    <state x="155" y="0" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1637720213535" />
+    <state width="200" height="461" key="SqlResolveConfigurable" timestamp="1637720211932">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1627958143572" />
-    <state x="54" y="0" key="SettingsEditor" timestamp="1628670285073">
+    <state width="200" height="461" key="SqlResolveConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1637720211932" />
+    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2" timestamp="1632289412952">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="54" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1628670285073" />
-    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2" timestamp="1628670726970">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628670726970" />
-    <state x="418" y="97" key="VcsDiffUtil.ChangesDialog" timestamp="1627639909940">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="418" y="97" key="VcsDiffUtil.ChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1627639909940" />
-    <state x="272" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1628670282730">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="272" y="255" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1628670282730" />
-    <state x="423" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1628564174279">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="423" y="190" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1628564174279" />
+    <state x="275" y="106" width="816" height="552" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1632289412952" />
     <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1631266212916">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="107" y="92" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1631266212916" />
-    <state x="467" y="0" width="915" height="615" key="dock-window-1" timestamp="1627446646815">
+    <state x="288" y="174" width="700" height="554" key="find.popup" timestamp="1637718545777">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="467" y="0" width="915" height="615" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1627446646815" />
-    <state x="200" y="14" width="915" height="615" key="dock-window-2" timestamp="1627446646815">
+    <state x="288" y="174" width="700" height="554" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1637718545777" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1637723525816">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="200" y="14" width="915" height="615" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1627446646815" />
-    <state x="385" y="98" width="700" height="532" key="find.popup" timestamp="1629447344112">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="385" y="98" width="700" height="532" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1629447344112" />
-    <state x="502" y="224" key="git4idea.rebase.GitRebaseDialog" timestamp="1627639801767">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="502" y="224" key="git4idea.rebase.GitRebaseDialog/0.0.1366.728@0.0.1366.728" timestamp="1627639801767" />
-    <state x="47" y="12" key="new project wizard" timestamp="1627378417092">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="47" y="12" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1627378417092" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1627545925894">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1627545925894" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1631255103568">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1631255103568" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1637723525816" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -644,19 +634,9 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="58" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/service/UserDetailsServiceImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/springboot_activiti/longestDemo.java</url>
@@ -665,6 +645,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/springboot_activiti/framework/security/service/Permission.java</url>
+          <line>16</line>
+          <properties class="com.example.springboot_activiti.framework.security.service.Permission" method="hasPermission">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

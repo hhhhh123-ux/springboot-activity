@@ -61,6 +61,14 @@ public class LoginUser implements UserDetails {
      */
     private SUser user;
 
+    public  LoginUser(){
+    }
+
+    public  LoginUser(SUser sUser,Set<String> permissions){
+        this.user=sUser;
+        this.permissions=permissions;
+    }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;

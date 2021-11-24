@@ -32,7 +32,7 @@ public class SLeaveformController {
         return AjaxResult.success();
     }
 
-    @SystemControllerLog(description = "申请列表", type = SystemConstant.list, operation = "申请模块")
+    @SystemControllerLog(description = "申请列表", type = SystemConstant.list, operation = "模块")
     @PostMapping("/list")
     public AjaxResult list(@RequestBody LeaveCurrentDTO dto) {
         return AjaxResult.success(leaveformService.list(dto));
